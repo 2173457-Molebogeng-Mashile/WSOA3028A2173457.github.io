@@ -1,0 +1,617 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans' sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.blogs {
+    background-color: #fff;
+    padding: 10rem 0;
+}
+
+
+
+
+
+.Theory {
+    background-color: #fff;
+    padding: 10rem 0;
+}
+
+.TheoryBlogs_Container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    height: 90%;
+    z-index: 1;
+    width: 50%;
+    max-width: 1300px;
+    padding: 40px;
+    background: #3e83c2;
+}
+
+.TheoryBlogs_Container1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    height: 90%;
+    z-index: 1;
+    width: 50%;
+    max-width: 1300px;
+    padding: 40px;
+    background: #3e83c2;
+}
+
+.TheoryBlogs_Container2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+   
+    z-index: 1;
+    width: 50%;
+    max-width: 1300px;
+    padding: 40px;
+    background: red;
+}
+
+
+
+.Tblogs__content {
+    color: #fff;
+    width: 100%;
+
+}
+
+    .Tblogs__content h1 {
+        font-size: 2rem;
+        background-color: #131313;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+
+
+
+    .Tblogs__content p {
+        margin-top: 1rem;
+        font-size: 18px;
+        font-weight: 500;
+        color: #131313;
+    }
+
+.Tblogs__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(Web2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Tblogs__img--card2 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(World.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.About {
+    background-color: #fff;
+    padding: 10rem 0;
+}
+
+.About_Container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    height: 90%;
+    z-index: 1;
+    width: 50%;
+    max-width: 1300px;
+    padding: 40px;
+    background: #3e83c2;
+}
+
+.About_Container1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    height: 90%;
+    z-index: 1;
+    width: 50%;
+    max-width: 1300px;
+    padding: 40px;
+    background: #3e83c2;
+}
+
+
+.About__content {
+    color: #fff;
+    width: 100%;
+}
+
+    .About__content h1 {
+        font-size: 2rem;
+        background-color: #131313;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+
+
+
+    .About__content p {
+        margin-top: 1rem;
+        font-size: 18px;
+        font-weight: 500;
+        color: #131313;
+    }
+
+.mainabout__img--container {
+    text-align: center;
+}
+
+.mainabout__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.Lulama__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(Lulama2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.Converse__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(MoreConverse.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.SAFW__img--card {
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(SAFW.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+
+.Rich__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(Rich5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.Rich__img--card2 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(Rich.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Rich__img--card3 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: url(Rich3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*///////////////////////////////////////////Slider///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+slider {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 10px;
+}
+
+    slider > * {
+        overflow: hidden;
+        display: flex;
+        height: 500px;
+        width: 500px;
+        background-color: #fff;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        animation: slide 12s infinite;
+    }
+
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(SarahLanga.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+
+slide:nth-child(2) {
+    animation-delay: 2s;
+    background-image: url(Maboneng.jpg);
+    background-position: center;
+    background-size: 150%;
+}
+
+
+
+slide:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(Lulama.jpg);
+    background-position: center;
+}
+
+
+
+slide:nth-child(4) {
+    animation-delay: 8s;
+    background-image: url(girls.jfif);
+    background-position: center;
+    background-size: 100%;
+}
+
+@keyframes slide {
+    0% {
+        left: 100%;
+        width: 100%;
+    }
+
+    5% {
+        left: 0%;
+    }
+
+    25% {
+        left: 0%;
+    }
+
+    30% {
+        left: -100%;
+        width: 100%;
+    }
+
+    30.0001% {
+        left: -100%;
+        width: 0%;
+    }
+
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////// Slider//////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 991px) {
+
+   
+
+    .Lulama__img--card {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Lulama2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Converse__img--card {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(MoreConverse.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .SAFW__img--card {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(SAFW.jpg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Rich__img--card {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Rich5.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Rich__img--card2 {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Rich.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Rich__img--card3 {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Rich3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+   
+
+  
+    .Tblogs__img--card {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+  
+        color: #fff;
+        background-image: url(Web2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Tblogs__img--card2 {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        
+        color: #fff;
+        background-image: url(World.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+@media screen and (max-width: 698px) {
+
+
+
+    .Lulama__img--card {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Lulama2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Converse__img--card {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(MoreConverse.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .SAFW__img--card {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(SAFW.jpg);
+        background-size: 130%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Rich__img--card {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Rich5.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Rich__img--card2 {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Rich.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Rich__img--card3 {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        background-image: url(Rich3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+    .Tblogs__img--card {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        color: #fff;
+        background-image: url(Web2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Tblogs__img--card2 {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        color: #fff;
+        background-image: url(World.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
